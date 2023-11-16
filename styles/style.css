@@ -942,6 +942,7 @@ a{
 
 .blog-container{
     margin-top: 80px;
+    margin-bottom: 150px;
 }
 
 .blog-container .blog-title{
@@ -1018,4 +1019,106 @@ a{
 .blog-container .blog_items1 .blog-item2 .blog-item1_texts .blog-item1_desc{
     width: 272px;
     padding-bottom: 20px;
+}
+
+.blog-container input{
+    width: 240px;
+    height: 66px;
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+    
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+}
+
+.blog-container input:hover{
+    background: linear-gradient(90deg, #178f61 0%, #2fd492 96.96%);
+}
+
+/* description */
+
+.description-container{
+    margin-bottom: 150px;
+}
+
+.description-container .title{
+    color: var(--1, #1F2428);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px; /* 127.273% */
+    padding-bottom: 12px;
+}
+
+.description-container .text{
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 200% */
+}
+
+/* footer style */
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    padding: 65px 0 65px 0;
+}
+
+.footer-container .footer-title{
+    color: var(--4, #FFF);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 133.333% */
+    padding-right: 140px;
+}
+
+.footer-container label{
+    display: flex;
+    gap: 15px;
+    margin-right: 140px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #FFF;
+}
+
+.footer-container label input{
+    background: transparent;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    border: none;
+    color: white;
+}
+
+.footer-container label input:focus{
+    outline: none;
+}
+
+.footer-container .button{
+    width: 240px;
+    height: 66px;
+    border: none;
+    color: var(--1, #FFF);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 36px;
+    transition: all .5s;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+}
+
+.footer-container .button:hover{
+    background: linear-gradient(90deg, #14a76e 0%, #20b97c 96.96%);
 }
